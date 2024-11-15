@@ -5,6 +5,14 @@ function createBox(cityName) { //the problem with this one is maybe idk how to t
     newDiv.textContent = cityName; //if text content = same cities.name ... target or furthest
     document.getElementById("cities").append(newDiv);
 }
+
+function getCityDistance(userCityInput){
+    let shortestDistance;
+    let nearestCity;
+    let longestDistance;
+    let farthestCity;
+
+}
 // Recommended: constants with references to existing HTML-elements
 
 // Recommended: Ask for the city name and then the rest of the code
